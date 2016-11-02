@@ -88,7 +88,7 @@ Naturally, an article can be divided into multiple sections.
 In some cases, eg. a page where articles about two topics are grouped, a section element can represent one of the groupings, and be the parent of several article elements with the actual content of the page.
 A good use of an article would be a blogpost with comments. The comments themselves are seen as individual articles but are section off from the main blogpost. eg:
 
-'''<article>
+```<article>
   <header>
     <h1>Title of blogpost</h1>
   </header>
@@ -115,4 +115,4 @@ A good use of an article would be a blogpost with comments. The comments themsel
       </article>
 
   </section>
-</article>'''
+</article>```

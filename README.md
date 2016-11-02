@@ -82,6 +82,10 @@ Add your answer to this readme file, commit your changes to this repository.
 ```
 #### Your answer: [2p]
 
+The distance between the document body and the yellow box is 40px from the top and 40px from the left.
+The position of the blue box is set 20px from the document body's top and left while the position of the yellow box is set 20px absolutely from the blue box's top and left.
+Therefore the distance is 20px + 20px = 40px from both directions.
+
 
 ## 3. Explain concepts (~15 minutes) [4 points]
 Add your answer to this readme file, commit your changes to this repository.

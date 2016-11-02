@@ -1,10 +1,14 @@
 figure{
   height: 200px;
+  width: 630px;
   font-family: Arial, sans-serif;
-  width: 59%;
   background-image: url(edit-icon.png);
   background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: bottom+15px right+15px;
+  }
+
+  figure:nth-of-type(even){
+    background-color: rgb(171, 183, 224);
   }
 
 .duck {
@@ -12,31 +16,40 @@ figure{
   height: 200px;
   width: 200px;
   position: relative;
-  border-right: solid 10px blue;
+  border-right: solid 10px rgb(84, 98, 148);
   display: inline-block;
   }
 
-.john{
-    background-image: url(duck.jpg);
-}
+  .john{
+      background-image: url(duck.jpg);
+    }
 
-.jane{
-    background-image: url(duck2.jpg);
-}
+  .jane{
+      background-image: url(duck2.jpg);
+    }
 
 figcaption{
   float: right;
   display: inline-block;
+  width: 400px;
+  height: 200px;
+  padding-left: 20px;
   }
 
   h1{
     font-size: 28px;
+    font-weight: normal;
     }
 
   p, table{
     font-size: 14px;
   }
 
+  table{
+    margin-top: 30px;
+  }
+
   td:nth-of-type(1){
   font-weight: bold;
+  width: 100px;
   }

@@ -1,7 +1,7 @@
 figure {
   margin: 20px auto;
   height: 200px;
-  width: 610px;
+  width: 600px;
   font-family: Arial, sans-serif;
   background-image: url(edit-icon.png);
   background-repeat: no-repeat;
@@ -32,7 +32,7 @@ figure:nth-of-type(even) {
 figcaption {
   float: right;
   display: inline-block;
-  width: 380px;
+  width: 370px;
   height: 200px;
   padding-left: 20px;
   }

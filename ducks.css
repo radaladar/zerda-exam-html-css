@@ -1,0 +1,42 @@
+figure{
+  height: 200px;
+  font-family: Arial, sans-serif;
+  width: 59%;
+  background-image: url(edit-icon.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  }
+
+.duck {
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  border-right: solid 10px blue;
+  display: inline-block;
+  }
+
+.john{
+    background-image: url(duck.jpg);
+}
+
+.jane{
+    background-image: url(duck2.jpg);
+}
+
+figcaption{
+  float: right;
+  display: inline-block;
+  }
+
+  h1{
+    font-size: 28px;
+    }
+
+  p, table{
+    font-size: 14px;
+  }
+
+  td:nth-of-type(1){
+  font-weight: bold;
+  }
